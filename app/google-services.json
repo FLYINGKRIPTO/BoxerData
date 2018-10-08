@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "468310513954",
+    "firebase_url": "https://udemyapp62boxerdata-d28a6.firebaseio.com",
+    "project_id": "udemyapp62boxerdata-d28a6",
+    "storage_bucket": "udemyapp62boxerdata-d28a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468310513954:android:b731112e218866a5",
+        "android_client_info": {
+          "package_name": "com.example.dell.udemyapp62boxerdata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468310513954-fr0tdandkbk2ld01kdnaot6psuvs1ttc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.udemyapp62boxerdata",
+            "certificate_hash": "0e6fb3e02fbc613595e032a7ab6806bebb4eafe5"
+          }
+        },
+        {
+          "client_id": "468310513954-8j318gtff9mmidedkg0b0rpedjhv56n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbNzmKxazXwnoKc63i5uy8b84VTMf7gMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468310513954-8j318gtff9mmidedkg0b0rpedjhv56n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

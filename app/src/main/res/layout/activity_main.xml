@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<TextView
+    android:id="@+id/boxer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="BOXER ID"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:padding="4dp"
+
+
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter a Unique Id"
+    android:id="@+id/boxerId"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="NAME"
+        android:padding="4dp"
+        android:textStyle="bold"
+        
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/boxerName"
+        android:hint="Enter the Boxer's Name"
+        
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOXER PUNCH POWER"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BOXER PUNCH POWER"
+        android:id="@+id/boxerPunchPower"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="BOXER PUNCH SPEED"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:id="@+id/boxerPunchSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Boxer punch speed"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="BOXER STAMINA"
+        android:textSize="20sp"
+
+        />
+    <EditText
+        android:id="@+id/boxer_stamina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Boxer stamina"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SUBMIT DATA"
+        android:id="@+id/btnSendDataToServer"
+
+        />
+</LinearLayout>
